@@ -4,22 +4,20 @@ A fun game written in python where you dodge obstacles, collect coins, use sheil
  `w` to activate jetpack and move up
  `a` to activate jetpack and move back
  `d` to activate jetpack and move front
- `j` to fire bullets
- `" "` or `space` to fire bullets that kill enemies or destroys flame arcs
+ `e` to fire bullets
+ `" "` or `space` to activate shield
+ `f` to activate speed boost
  
 ###### Rules:
 - When no key is pressed the rider will fall under to\he influence of gravity
 - When sheild is activated, if the rider collides with an arc, shild will be decativated
 - Sheild would run for 10 seconds and after that if won't be usable till next 60 seconds
 
-##### Enemies:
-Enemies would not harm you but killing them with your bullets wll increase your score.
-
-##### Power Up:
-It is a `Green rectangle` like collectable in game that will increase the game speed.
+##### Fire Beams:
+Contact with fire beams will decrease your lives and you'll lose if you have none left. They are red in color. You can shoot them with bullets to remove them and increase your score.
 
 ##### Magnets:
-They attract the rider towards their center if near their range.
+They attract the rider towards their center if near their range. They are yellow in color
 
 ##### Dragon:
 When you have dodged all the obstacles safely, you will encounter the Dragon.
